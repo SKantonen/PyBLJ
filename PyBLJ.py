@@ -125,6 +125,7 @@ path = "./al"+str(num)+".den"
 
 if not os.path.exists(path):
    print "GENERATING RADIAL DENSITIES"
+   sp.call('./alden.sh', shell = True)
 
 while not os.path.exists(path):
     time.sleep(40)
