@@ -1,5 +1,8 @@
 # PyBLJ
 PyBLJ (Python Beta for Lennard Jones) is a program designed to parse .FChk files and produce electronic betas, particularly useful for deriving Lennard-Jones parameters in the SDLJ force field paradigm (citation forthcoming!)
 
-# Running PyBLJ
-The example methanol input, input.com, can be run using g09 to produce Test.FChk, which is the most important file for PyBLJ to parse. Once the calculation is complete, PyBLJ can be run inside the directory with Test.FChk + lebded (included in this repository) to begin producing radial grids to be used with Test.FChk to produce radial densities. PyBLJ then uses these to fit betas and ionization energies for each atom-in-molecule.
+# Generating Test.FChk
+In order to run PyBLJ, a readable Test.FChk output file from Gaussian09 must be present in the working directory. Example Gaussian09 input file are included in this Github repository (methanol.com, ethanol.com, etc.)
+
+# Running PyLBJ
+Once the Test.FChk file has been produced, PyBLJ can be run. PyBLJ requires the included 'lebded' file in the working directory to build the radial grids.
