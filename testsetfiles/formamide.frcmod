@@ -1,0 +1,37 @@
+MASS
+ex     12.0100   0.0000   # C
+ey     14.0100   0.0000   # N
+ez      1.0080   0.0000   # H
+ez      1.0080   0.0000   # H1
+fa     16.0000   0.0000   # O
+fb      1.0080   0.0000   # H2
+
+BOND
+ex-ey    427.6000      1.37890 
+ex-fa    637.7000      1.21830 
+ex-fb    319.7000      1.10510 
+ey-ez    403.2000      1.01290 
+
+ANGLE
+ey-ex-fa     74.2200    123.0501 
+ex-ey-ez     48.3300    117.5501 
+ey-ex-fb     51.4200    112.1600 
+ez-ey-ez     39.5600    117.9501 
+fa-ex-fb     53.7000    123.6501 
+
+DIHE
+fa-ex-ey-ez   1      2.0000      0.0000     -1.0000
+fa-ex-ey-ez   1      2.5000    180.0001      2.0000 
+fb-ex-ey-ez   1      2.5000    180.0001      2.0000 
+
+IMPROPER
+fa-ex-ey-fb         10.5000    180.0001      2.0000 
+ex-ez-ey-ez          1.1000    180.0001      2.0000 
+
+NONBON
+  ex     1.812254536416e+00     9.083196412351e-02 # EVAL 1 PRM["inputs.dat:2.1"]/4.023 2 (PRM["inputs.dat:2.2"]*1276.822)/(4*PRM["inputs.dat:2.1"]**6) /EVAL
+  ey     1.954142963146e+00     3.051849864092e-01 # EVAL 1 PRM["inputs.dat:6.1"]/4.043 2 (PRM["inputs.dat:6.2"]*1287.432)/(4*PRM["inputs.dat:6.1"]**6) /EVAL
+  ez     7.467059453669e-01     3.047155520112e-02 # EVAL 1 PRM["inputs.dat:5.1"]/5.601 2 (PRM["inputs.dat:5.2"]*2505.945)/(4*PRM["inputs.dat:5.1"]**6) /EVAL
+  fa     1.497991543340e+00     1.463906668652e-01 # EVAL 1 PRM["inputs.dat:4.1"]/4.730 2 (PRM["inputs.dat:4.2"]*1762.267)/(4*PRM["inputs.dat:4.1"]**6) /EVAL
+  fb     1.423143386135e+00     2.541943516199e-02 # EVAL 1 PRM["inputs.dat:3.1"]/4.861 2 (PRM["inputs.dat:3.2"]*1860.254)/(4*PRM["inputs.dat:3.1"]**6) /EVAL
+
